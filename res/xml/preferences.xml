@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/pref_lastfm_scrobbling"
+        android:summary="@string/lastfm_scrobbling"
+        android:title="@string/lastfm_scrobbling" />
+
+    <EditTextPreference
+        android:defaultValue="@string/empty"
+        android:dependency="@string/pref_lastfm_scrobbling"
+        android:dialogTitle="@string/lastfm_username"
+        android:key="@string/pref_lastfm_username"
+        android:summary="@string/empty"
+        android:title="@string/lastfm_username" />
+    <EditTextPreference
+        android:defaultValue="@string/empty"
+        android:dependency="@string/pref_lastfm_scrobbling"
+        android:dialogTitle="@string/lastfm_pwd"
+        android:inputType="textPassword"
+        android:key="@string/pref_lastfm_pwd"
+        android:summary="@string/empty"
+        android:title="@string/lastfm_pwd" />
+
+    <PreferenceScreen
+        android:key="pref_about"
+        android:persistent="false"
+        android:title="@string/about"
+        android:summary="@string/about_summary" >
+    </PreferenceScreen>
+    
+    <PreferenceScreen
+        android:key="last_fm_logo"
+        android:selectable="false"
+        >
+        
+    </PreferenceScreen>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mylarge">15dp</dimen>
+
+    <!-- Pie menu center in dp unit. This position is assumed to be tap position -->
+    <!-- How to come from bitmap in px to dp value:
+    		1) Let x1 be center_value in pixels 
+    		2) go to http://labs.skinkers.com/content/android_dp_px_calculator/ 
+    		3) Choose "px" and "xhdpi" (assuming you use xhpdi pie menu graphic) 
+    		4) Enter x1 value and calculate dp value
+    -->
+    <dimen name="piemenu_center_x">109dp</dimen>
+    <dimen name="piemenu_center_y">95dp</dimen>
+</resources>

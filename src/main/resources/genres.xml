@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster_list version="1.0">
+<clusters>
+	<cluster>
+		<name>Electronic</name>
+		<sub><![CDATA[Electro,Elektro,Techno,Dance,Club,House,Dub,Disco,Funk,Trance,Industrial,Bass,Beat,Break,Acid,Jungle,Tribal,Freestyle,Goa,D'n'B,D&B,D & B,D´n´B,D`n`B,Trip Hop,Trip-Hop,Triphop,New Age,New-Age,NewAge,New Wave,NewWave,New-Wave]]></sub>
+		<x>314</x>
+		<y>199</y>
+		<color>00B0F0</color>
+	</cluster>
+	<cluster>
+		<name>Ambient &amp; Chill Out</name>
+		<sub><![CDATA[Ambient,Chill,Atmosphere,Downtempo,Lounge,Easy Listening,EasyListening]]></sub>
+		<x>123</x>
+		<y>104</y>
+		<color>FF33CC</color>
+	</cluster>
+	<cluster>
+		<name>World</name>
+		<sub><![CDATA[World,Son,Welt,Ethnic,Latin,Cumbia,Salsa,Tango,Axe,Bachata,Bolero,Gaucha,Merengue,Pagode,Sertaneja,Polka,Flamenco,Folklore,Celtic,Chanson,African,Chinese,American,Syria,Balkan,Cuban,English,Filipino,French,Greek,Hungarian,Icelandic,Indian,Iranian,Irish,Italian,Macedonian,Scottish,Turkish,Ukrainian,Russian]]></sub>
+		<x>669</x>
+		<y>623</y>
+		<color>FFFFFF</color>
+	</cluster>
+	<cluster>
+		<name>Country &amp; Folk</name>
+		<sub><![CDATA[Folk,Country,Swing]]></sub>
+		<x>903</x>
+		<y>301</y>
+		<color>996600</color>
+	</cluster>
+	<cluster>
+		<name>Reggae</name>
+		<sub><![CDATA[Reggae,Reggea,Raggae,Raggea,Ragga,Raggy,Ragae]]></sub>
+		<x>357</x>
+		<y>583</y>
+		<color>99CC00</color>
+	</cluster>
+	<cluster>
+		<name>Hip Hop</name>
+		<sub><![CDATA[Rap,Gangsta,Hip-Hop,HipHop,Hip-Hop]]></sub>
+		<x>306</x>
+		<y>396</y>
+		<color>FF0066</color>
+	</cluster>
+	<cluster>
+		<name>Soul &amp; R'n'B</name>
+		<sub><![CDATA[Soul,RnB,R'n'B,R&B,R & B,RandB,Rhythm & Blues,Rhythm and Blues,Rhythm'n'Blues]]></sub>
+		<x>522</x>
+		<y>472</y>
+		<color>7030A0</color>
+	</cluster>
+	<cluster>
+		<name>Metal &amp; Punk</name>
+		<sub><![CDATA[Metal,Punk,Ska,Hardrock,Hard Rock]]></sub>
+		<x>895</x>
+		<y>113</y>
+		<color>7F7F7F</color>
+	</cluster>
+	<cluster>
+		<name>Pop</name>
+		<sub><![CDATA[Pop,Austro,Charts,Schlager,Ballad,Top,60,Sixties,Beatles,70,Seventies,80,Eighties,90,Nineties]]></sub>
+		<x>522</x>
+		<y>275</y>
+		<color>FFFF00</color>
+	</cluster>
+	<cluster>
+		<name>Rock</name>
+		<sub><![CDATA[Rock,Acoustic]]></sub>
+		<x>726</x>
+		<y>242</y>
+		<color>CC0000</color>
+	</cluster>
+	<cluster>
+		<name>Classical</name>
+		<sub><![CDATA[Contemporary,Classic,Klassik,Klassisch,Musical,Opera,Orchestra,Celtic,Medieval,Renaissance,Baroque,Romantic,Impressionism,Modernism,Experimentalism,Futurism,Expressionism,Atonality,Twelve-tone,Serialism,Musique concr,Romanticism,Neoclassicism,Soundtrack,OST,O.S.T.,Film,Klassik,Piano,Symphonie,Symphony]]></sub>
+		<x>903</x>
+		<y>632</y>
+		<color>4013BD</color>
+	</cluster>
+	<cluster>
+		<name>Alternative &amp; Indie</name>
+		<sub><![CDATA[Alternative,Alt.Rock,Alt. Rock,AlternRock,Indie,Grunge,Crossover,Singer,Songwriter,Emo,Garage,LoFi,Lo-Fi]]></sub>
+		<x>600</x>
+		<y>84</y>
+		<color>FF6600</color>
+	</cluster>
+	<cluster>
+		<name>Jazz &amp; Blues</name>
+		<sub><![CDATA[Jazz,Blues,Bebop,Dixieland,Bigbeat,Big Beat]]></sub>
+		<x>800</x>
+		<y>462</y>
+		<color>00B050</color>
+	</cluster>
+	<cluster>
+		<name>Speech</name>
+		<sub><![CDATA[Speech,Book,Podcast,Comedy,Voice,Audiobook,Hörbuch]]></sub>
+		<x>141</x>
+		<y>480</y>
+		<color>FFFF66</color>
+	</cluster>
+	<cluster>
+		<name>Other</name>
+		<sub><![CDATA[Unbekannt,Other,Misc,]]></sub>
+		<x>97</x>
+		<y>633</y>
+		<color>B9CDE5</color>
+	</cluster>
+</clusters>
+</cluster_list>
+
+

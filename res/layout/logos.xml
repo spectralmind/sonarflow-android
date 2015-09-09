@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <ImageView
+        android:id="@+id/last_fm_logo"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:src="@drawable/last_fm_logo_white"
+        android:visibility="visible" 
+        android:contentDescription="@string/last_fm_logo_desc"/>
+
+    <ImageView
+        android:id="@+id/seven_digital_logo"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/_7dig_logo_desc"
+        android:onClick="onClick"
+        android:src="@drawable/seven_digital_logo"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- In-app strings -->
+    <string name="app_name">Sonarflow</string>
+    <string name="title_activity_main">Sonarflow</string>
+    <string name="crash_toast_text">Unhandled exception. Gathering data, please stand by&#8230;</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK, then SEND the generated email.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Please press SEND. Thank you !</string>
+    <string name="hyphen">-</string>
+    <string name="empty"></string>
+    <string name="loading_library">Loading music library&#8230;</string>
+    <string name="creating_moodclusters">Preparing mood bubbles&#8230;</string>
+    <string name="last_fm_logo_desc">last.fm logo. Links to last.fm website</string>
+    <string name="_7dig_logo_desc">7digital logo. Links to 7digital website</string>
+
+    <string name="ANDROID_VERSION">ANDROID VERSION=</string>
+    <string name="BRAND">BRAND=</string>
+    <string name="MODEL">MODEL=</string>
+    <string name="DENSITY">DENSITY=</string>
+    <string name="RESOLUTION">RESOLUTION=</string> 
+    <string name="APP_VERSION_NAME">APP_VERSION_NAME=</string> 
+    <string name="COULD_NOT_RETRIEVE_APP_VERSION_NAME"  >Could not retrieve APP_VERSION_NAME</string> 
+      
+    <!-- no music dialog -->
+    <string name="nomusicdlg_title">No music found</string>
+    <string name="nomusicdlg_msg">Add some music to your device to get started.</string>
+    <string name="nomusicdlg_button">Try again</string>
+    <string name="no_email_installed">There are no email clients installed.</string>
+    <string name="fb_subject">Sonarflow feedback</string>
+    <string name="fb_intro">I tried Sonarflow for Android and I would like to share my thoughts:\n\n</string>
+    <string name="userdeviceintro">\n\n\n\n-------------------------------------------------\nMy Android device:\n</string>
+
+    <!-- Menu -->
+    <string name="menu_zoom_out">Zoom out</string>
+    <string name="menu_refresh">Reload library</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_shuffle">Shuffle</string>
+    <string name="menu_repeatall">Repeat All</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_moodview">Mood View</string>
+    <string name="discover_on">Discover on</string>
+    <string name="discover_off">Discover off</string>
+    <string name="not_pause">Pause</string>
+    <string name="not_play">Play</string>
+    <string name="not_prev">Previous Track</string>
+    <string name="not_next">Next Track</string>
+    <string name="not_close">Close</string>
+
+     <string name="send_feedback_mail">Send feedback mail</string>
+     <string name="sonarflowState_null"> SonarflowState == null, cannot restore view toolbar state</string>
+   
+    
+    <!-- Settings -->
+    <string name="lastfm_scrobbling">Last.fm Scrobbling</string>
+    <string name="tracks_will_be_scrobbled_to_last.fm">Tracks will be scrobbled to last.fm</string>
+    <string name="tracks_will_not_be_scrobbled_to_last.fm">Tracks will not be scrobbled to last.fm</string>
+     
+    <string name="lastfm_username">Username</string>
+    <string name="lastfm_pwd">Password</string>
+    <string name="lastfm_pwd_default">\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022</string>
+    <string name="about">About</string>
+    <string name="about_summary">&#169; 2013 Spectralmind GmbH. Powered by last.fm and 7digital</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sonarflow_help">SonarflowHelpActivity</string>
+    
+     <!--BubblesView  -->
+    <string name="no_artists_found">No Artists found!</string>
+    
+    <string name="problem_discovering_music">Problem discovering music.  Do you have internet access?</string>
+    <string name="zoom_more_into_bubble">Zoom more into bubble for discovering!</string>
+    <string name="no_songs_could_be_found">No songs could be found!</string>
+    <string name="no_internet_connection"> No internet connection!</string>
+    
+    <!-- Help -->
+    <string name="btnHelp">Help</string>
+    
+       <!--SwitcherView -->     
+   <string name="GENRE">Genre</string> 
+   <string name="MOOD">Mood</string> 
+     
+    
+    <!--PlayerService -->
+    <string name="could_not_log_in"> Could not log in !</string> 
+    <string name="current_song_scrobbled">Current song scrobbled!</string>
+    <string name="problem_with_scrobbling"> Problem with scrobbling. Do you have internet access?</string>
+     
+    
+    <!--  Moodloader -->
+    <string name="could_not_load_tracks">Error while loading tracks. Some tracks may be missing.</string>
+    
+   
+        
+    
+    
+     
+</resources>

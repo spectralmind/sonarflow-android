@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/view_menu" >
+
+        <!-- <item android:id="@+id/discovery_off" android:title="@string/discover_off" android:icon="@drawable/discovery_off" android:showAsAction="always" android:orderInCategory="1"></item> -->
+        <!-- <item android:id="@+id/discovery_on" android:title="@string/discover_on" android:icon="@drawable/discovery_on" android:showAsAction="always" android:orderInCategory="1"></item> -->
+        <item
+            android:id="@+id/menu_moodview"           
+            android:orderInCategory="0"
+            android:showAsAction="always"
+            android:actionLayout="@layout/switcher_view"
+            android:title="@string/menu_moodview">
+        </item>
+<!--         <item
+            android:id="@+id/menu_zoom_out"
+            android:icon="@drawable/btn_home"
+            android:orderInCategory="1"
+            android:showAsAction="ifRoom"
+            android:title="@string/menu_zoom_out">
+        </item> -->
+        
+<!--         <item
+            android:id="@+id/refresh"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menu_refresh">
+        </item> -->
+        <item
+            android:id="@+id/settings"
+            android:orderInCategory="7"
+            android:showAsAction="never"
+            android:title="@string/menu_settings">
+        </item>
+        <item
+            android:id="@+id/feedback"
+            android:orderInCategory="8"
+            android:showAsAction="never"
+            android:title="@string/menu_feedback">
+        </item>     
+        
+          <item
+            android:id="@+id/help"
+            android:orderInCategory="9"
+            android:showAsAction="never"
+            android:title="@string/btnHelp">
+        </item> 
+        
+           
+    </group>
+
+</menu>

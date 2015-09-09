@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="41" android:versionName="0.22" package="com.spectralmind.sf4android">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17"/>
+
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.spectralmind.sf4android.SonarflowApplication" android:theme="@android:style/Theme.Holo" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.spectralmind.sf4android.MainActivity" android:screenOrientation="sensor" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.spectralmind.sf4android.SonarflowSettingsActivity" android:screenOrientation="sensor">
+        </activity>
+        
+           <activity android:label="@string/app_name" android:name="com.spectralmind.sf4android.SonarflowHelpActivity" android:screenOrientation="sensor" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+                   
+         <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleInstance" android:name="org.acra.CrashReportDialog" android:theme="@android:style/Theme.Dialog"/>
+
+        <service android:name="com.spectralmind.sf4android.player.PlayerService">
+        </service>
+
+        <receiver android:exported="false" android:name="com.spectralmind.sf4android.player.MusicIntentReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
+            </intent-filter>
+        </receiver>
+
+        </application>
+
+</manifest>

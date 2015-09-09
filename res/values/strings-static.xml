@@ -1,0 +1,17 @@
+<resources>
+    
+    <!--  Settings KEYS -->
+     <string name="pref_lastfm_scrobbling">lastfm_scrobbling</string>
+     <string name="pref_lastfm_username">lastfm_username</string>
+     <string name="pref_lastfm_pwd">lastfm_pwd</string>
+
+     <string name="pref_about">about</string>
+     
+     <!-- email addresses  -->
+     <string name="email_feedback">appsupport@sonarflow.com</string>
+     
+     <!--  api keys -->
+     <string name="lastfm_api_key">9f9b1184cbfe26e410358b99511799ea</string>
+     <string name="lastfm_api_secret">035409a69c9d7f9c00c64f175af69d00</string>
+     
+</resources>

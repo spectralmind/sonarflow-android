@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- In-app strings -->
+    <string name="app_name">Sonarflow</string>
+    <string name="title_activity_main">Sonarflow</string>
+    <string name="crash_toast_text">Ein Fehler ist aufgetreten, bitte warten&#8230;</string>
+    <string name="crash_dialog_text">Ein unerwarteter Fehler ist aufgetreten, die App wurde gestoppt. Bitte hilf uns indem du uns diesen Fehlerbericht sendest
+        So können wir den Fehler rasch beheben und dich bei einem Update benachrichtigen. Dazu wähle "OK", dann sende die automatisch erstellte E-Mail. Danke!
+        </string>
+    <string name="crash_dialog_comment_prompt">Du kannst einen Kommentar zum Fehler unten einfügen:</string>
+    <string name="crash_dialog_ok_toast">Bitte auf "Senden" tappen. Danke!</string>
+    <string name="hyphen">-</string>
+    <string name="empty"></string>
+    <string name="loading_library">Lade Musikbibliothek&#8230;</string>
+    <string name="creating_moodclusters">Erstelle Mood-Bubbles&#8230;</string>
+    <string name="last_fm_logo_desc">last.fm logo. Link zur last.fm website</string>
+    <string name="_7dig_logo_desc">7digital logo. Link zur 7digital website</string>
+
+    <string name="ANDROID_VERSION">ANDROID VERSION=</string>
+    <string name="BRAND">BRAND=</string>
+    <string name="MODEL">MODEL=</string>
+    <string name="DENSITY">DENSITY=</string>
+    <string name="RESOLUTION">RESOLUTION=</string> 
+    <string name="APP_VERSION_NAME">APP_VERSION_NAME=</string> 
+    <string name="COULD_NOT_RETRIEVE_APP_VERSION_NAME">APP_VERSION_NAME konnte nicht abgefragt werden</string> 
+      
+    <!-- no music dialog -->
+    <string name="nomusicdlg_title">Keine Musik gefunden</string>
+    <string name="nomusicdlg_msg">Kopiere einige Musiktitel auf das Gerät um zu beginnen</string>
+    <string name="nomusicdlg_button">Erneut laden</string>
+    <string name="no_email_installed">Keine Mail-App gefunden</string>
+    <string name="fb_subject">Sonarflow Feedback</string>
+    <string name="fb_intro">Ich habe Sonarflow für Android verwendet und möchte meine Gedanken mitteilen:\n\n</string>
+    <string name="userdeviceintro">\n\n\n\n-------------------------------------------------\nMein Android-Gerät:\n</string>
+
+    <!-- Menu -->
+    <string name="menu_zoom_out">Hinauszoomen</string>
+    <string name="menu_refresh">Erneut laden</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_shuffle">Zufällig</string>
+    <string name="menu_repeatall">Alle wiederholen</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_moodview">Mood View</string>
+    <string name="discover_on">Discover EIN</string>
+    <string name="discover_off">Discover AUS</string>
+    <string name="not_pause">Pause</string>
+    <string name="not_play">Abspielen</string>
+    <string name="not_prev">Vorheriger Titel</string>
+    <string name="not_next">Nächster Titel</string>
+    <string name="not_close">Schließen</string>
+
+     <string name="send_feedback_mail">Feedback E-Mail senden</string>
+    
+    <!-- Settings -->
+    <string name="lastfm_scrobbling">Last.fm Scrobbling</string>
+    <string name="tracks_will_be_scrobbled_to_last.fm">Musiktitel werden zu last.fm gesendet</string>
+    <string name="tracks_will_not_be_scrobbled_to_last.fm">Musiktitel werden nicht zu last.fm gesendet</string>
+     
+    <string name="lastfm_username">Benutzername</string>
+    <string name="lastfm_pwd">Passwort</string>
+    <string name="lastfm_pwd_default">\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022</string>
+    <string name="about">Info</string>
+    <string name="about_summary">&#169; 2013 Spectralmind GmbH. Unter Verwendung von last.fm und 7digital Daten.</string>
+    
+     <!--BubblesView  -->
+    <string name="no_artists_found">Keine Künstler gefunden!</string>
+    
+    <string name="problem_discovering_music">Bitte kontrolliere deine Internetverbindung</string>
+    <string name="zoom_more_into_bubble">Zoom weiter hinein, um fortzufahren</string>
+    <string name="no_songs_could_be_found">Keine Musiktitel gefunden</string>
+    <string name="no_internet_connection">Bitte kontrolliere deine Internetverbindung</string>
+    
+    <!-- Help -->
+    <string name="btnHelp">Hilfe</string>
+    
+       <!--SwitcherView -->     
+   <string name="GENRE">Genre</string> 
+   <string name="MOOD">Mood</string> 
+     
+    
+    <!--PlayerService -->
+    <string name="could_not_log_in">Login bei last.fm fehlgeschlagen</string> 
+    <string name="current_song_scrobbled">Aktueller Titel wurde gescrobbelt</string>
+    <string name="problem_with_scrobbling">Bitte kontrolliere deine Internetverbindung</string>
+     
+    
+    <!--  Moodloader -->
+    <string name="could_not_load_tracks">Problem beim Laden der Tracks. Einige Tracks könnten fehlen.</string>
+    
+   
+        
+    
+    
+     
+</resources>
