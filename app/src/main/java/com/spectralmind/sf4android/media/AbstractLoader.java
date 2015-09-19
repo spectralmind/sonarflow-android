@@ -9,6 +9,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.provider.MediaStore;
 
@@ -17,6 +19,7 @@ import com.google.common.io.Closeables;
 import com.google.common.io.Resources;
 import com.spectralmind.sf4android.MainActivity;
 import com.spectralmind.sf4android.MainActivity.BubbleLoader;
+import com.spectralmind.sf4android.R;
 import com.spectralmind.sf4android.bubble.BubbleLayouter;
 import com.spectralmind.sf4android.definitions.ClusterAttributeDefinition;
 import com.spectralmind.sf4android.definitions.ClusterDefinition;
@@ -56,44 +59,42 @@ public abstract class AbstractLoader {
 	 * @param delegate
 	 */
 	public void load(final MainActivity mMainActivity, BubbleLoader delegate) {
-		attrDefs = loadAttributeDefinitions();
-		mapper = createDefinitionMapper();
+		attrDefs = loadAttributeDefinitions(mMainActivity);
+		mapper = createDefinitionMapper(mMainActivity);
 	}
 
 
-	private List<ClusterAttributeDefinition> loadAttributeDefinitions() {
-		URL attributeDefFile = Resources.getResource(attrDefsFile);
-		InputStream is = null;
-		List<ClusterAttributeDefinition> l;
-		try {
-			is = attributeDefFile.openStream();
-			ClusterDefinitionLoader loader = new ClusterDefinitionLoader();
-			l = loader.loadAttributeDefinitions(is);
-		}
-		catch(IOException e) {
-			throw Throwables.propagate(e);
-		}
-		finally {
-			Closeables.closeQuietly(is);
-		}
-		return l;
-	}
+	private List<ClusterAttributeDefinition> loadAttributeDefinitions(Context context) {
+        AssetManager assetManager = context.getAssets();
+        InputStream is = null;
+        List<ClusterAttributeDefinition> l;
+        try {
+            is = assetManager.open(attrDefsFile);
+            ClusterDefinitionLoader loader = new ClusterDefinitionLoader();
+            l = loader.loadAttributeDefinitions(is);
+        } catch (IOException e) {
+            throw Throwables.propagate(e);
+        } finally {
+            Closeables.closeQuietly(is);
+        }
+        return l;
+    }
 
-	public DefinitionMapper createDefinitionMapper() {
-		URL url = Resources.getResource(defsFile);
-		InputStream is = null;
-		try {
-			is = url.openStream();
-			ClusterDefinitionLoader loader = new ClusterDefinitionLoader();
-			defs = loader.loadDefinitions(is);
-			return new DefinitionMapper(defs);
-		}
-		catch(IOException e) {
-			throw Throwables.propagate(e);
-		}
-		finally {
-			Closeables.closeQuietly(is);
-		}
+	public DefinitionMapper createDefinitionMapper(Context context) {
+        AssetManager assetManager = context.getAssets();
+        InputStream is = null;
+        try {
+            is = assetManager.open(defsFile);
+            ClusterDefinitionLoader loader = new ClusterDefinitionLoader();
+            defs = loader.loadDefinitions(is);
+            return new DefinitionMapper(defs);
+        }
+        catch(IOException e) {
+            throw Throwables.propagate(e);
+        }
+        finally {
+            Closeables.closeQuietly(is);
+        }
 	}
 
 

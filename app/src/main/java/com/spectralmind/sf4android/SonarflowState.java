@@ -16,9 +16,9 @@ import com.spectralmind.sf4android.media.MoodLoader;
 public class SonarflowState {
 	private static final Logger LOGGER = LoggerFactory.getLogger(SonarflowState.class);
 
-	private static final String GENRES_XML = "genres.xml";
-	private static final String MOODS_XML = "moods.xml";
-	private static final String ATTRIBUTES_XML = "cluster_attributes.xml";
+	private static final String GENRES_XML = 	"genres.xml";
+	private static final String MOODS_XML = 	"moods.xml";
+	private static final String ATTRIBUTES_XML ="cluster_attributes.xml";
 	
 	public static final int GENRE_BUBBLES = 0;
 	public static final int MOOD_BUBBLES = 1;

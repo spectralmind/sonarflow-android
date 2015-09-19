@@ -21,6 +21,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
 
+/*
 @ReportsCrashes(formKey = "", // will not be used
 mailTo = "android.crashes@spectralmind.com", 
 customReportContent = { USER_COMMENT, ANDROID_VERSION, APP_VERSION_NAME, BRAND,  PHONE_MODEL, DISPLAY, CUSTOM_DATA, STACK_TRACE, LOGCAT }, 
@@ -30,6 +31,7 @@ resDialogText = R.string.crash_dialog_text,
 resDialogCommentPrompt = R.string.crash_dialog_comment_prompt, // optional. when defined, adds a user text field input with this text resource as a label
 resDialogOkToast = R.string.crash_dialog_ok_toast // optional. displays a Toast message when the user accepts to send a report.
 		)
+		    */
 public class SonarflowApplication extends Application {
 
 	private static Context context;
